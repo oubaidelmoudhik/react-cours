@@ -13,6 +13,8 @@ function App() {
     component = <LoginForm />;
   }
 
+  // Ternary Operator
+  // const dashboad = isLoggedIn ? <AdminPanel /> : <LoginForm />;
   const products = [
     { title: "Cabbage", id: 1 },
     { title: "Garlic", id: 2 },
